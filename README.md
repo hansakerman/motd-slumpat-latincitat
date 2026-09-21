@@ -11,8 +11,6 @@ normaliserade till en enkel, scriptvänlig textfil.
 
 - `latin_citat_normaliserat.txt` – ett citat per rad, formatet
   `Latinskt citat|Svensk översättning/förklaring`.
-- `normalize_citat.py` – skriptet som genererade
-  `latin_citat_normaliserat.txt` från den råa Wikipedia-texten.
 - `slumpat_citat.sh` – körbart bash/zsh-skript som skriver ut ett
   slumpat citat från textfilen.
 
