@@ -8,7 +8,7 @@
 set -euo pipefail
 
 script_dir="$(cd "$(dirname "${BASH_SOURCE[0]:-$0}")" && pwd)"
-citat_fil="${script_dir}/latin_citat_normaliserat.txt"
+citat_fil="${script_dir}/SE_latin_citat.txt"
 
 if [[ ! -f "$citat_fil" ]]; then
     echo "Hittar inte citatfilen: $citat_fil" >&2
